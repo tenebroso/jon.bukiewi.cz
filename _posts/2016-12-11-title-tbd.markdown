@@ -2,7 +2,7 @@
 layout: post
 title:  "First post: Title TBD"
 date:   2016-12-11 10:27:49 -0600
-categories: jekyll update
+categories: intro
 ---
 Look at this blog, it's so new! And shiny! A lone wolf exploring the wilderness! A single rider peering over the vast frontier! An eager traveler opening the door to a new journey! A.. voice... echoing into the hum of digital space to everybody and also... nobody... at all! A small contribution of bytes on a... whirring machine that lives thousands of miles away... which, probably has some cheeto dust on it.
 
