@@ -16,7 +16,7 @@
 title: Jon Bukiewicz
 email: jon@bukiewi.cz
 description: > # this means to ignore newlines until "baseurl:"
-  This is a personal site and blog for me, a web solutions engineer with a focus on front end development and coffee.
+  This is a personal site and blog for Jon Bukiewicz, a web solutions engineer with a focus on front end development and coffee.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jonbukiewicz
