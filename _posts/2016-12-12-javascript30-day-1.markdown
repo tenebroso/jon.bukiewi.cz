@@ -4,9 +4,9 @@ title:  "JavaScript 30: Day 1"
 date:   2016-12-12 10:27:49 -0600
 categories: javascript30 frontend
 ---
-Today I began Day 1 of Wes Bos' [JavaScript 30](https://javascript30.com/) course and I think this is going to be pretty awesome. We made a drum keyboard (mine: http://codepen.io/tenebroso/pen/YpOMLK?editors=0100) and I was able to dabble in ES6 for what has honestly been the first time. I ended up in a bit of a rabbit hole through exploring the differences between const, let and even var. 
+Today I began Day 1 of Wes Bos' [JavaScript 30](https://javascript30.com/) course and I think this is going to be pretty awesome. We made a [keyboard-based drum kit](http://codepen.io/tenebroso/pen/YpOMLK?editors=0100) and I was able to dabble in ES6 for what has honestly been the first time. Some days I realize how much I have relied on jQuery and it scares me. I ended up in a bit of a rabbit hole through exploring the differences between const, let and even var. 
 
-I came up with this:
+I came up with the following, [hit me up](http://twitter.com/jonbukiewicz) if any of this seems off:
 
 {% highlight js %}const
 // Its value cannot be changed or redeclared.
