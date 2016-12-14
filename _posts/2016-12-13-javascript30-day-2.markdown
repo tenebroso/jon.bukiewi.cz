@@ -12,4 +12,10 @@ Things I learned:
 
 - That the Date() object is more powerful than I realized. I've been opting to use MomentJS on most projects as the default, much like jQuery. It was interesting to explore what capabilities are built in besides just getting the current date, such as getSeconds, getMinutes &amp; getHours. Seems so obvious now, but I've just never had a case (that I knew of) to rely on these. 
 
+To do:
+
+- See if there is any reasonable way to adjust the lengths of these hands to more accurately represent a real clock. My first stab at this was unsuccessful and it seemed pretty unreliable from seeing some of the discussions about it in the slack channel. Regardless, might be fun to see what can be done with SVG, etc.
+
+- I also want to incorporate a better method for handling the jump that occurs when the second hand hits 0. Current plan is to set the animation to a separate class, and remove it when the second hand hits 0, then re-add it immediately after so that the transition is immediate. Will probably do this tomorrow.
+
 I'm really excited moving forward to see how far I can get without jQuery and now without MomentJS. These are both awesome tools, but I will be the first to admit that I've overused them!
