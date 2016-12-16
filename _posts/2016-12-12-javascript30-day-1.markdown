@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "JavaScript 30: Day 1"
+title:  "JS30 D1: Time to level up"
 date:   2016-12-12 10:27:49 -0600
 categories: javascript30 frontend
 ---

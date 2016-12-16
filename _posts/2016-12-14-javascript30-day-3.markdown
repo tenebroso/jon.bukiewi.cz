@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "JavaScript 30: Day 3"
+title:  "JS30 D3: CSS Variables and JS"
 date:   2016-12-14 4:47:01 -0600
 categories: javascript30 frontend
 ---

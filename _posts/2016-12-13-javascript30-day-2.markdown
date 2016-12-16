@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "JavaScript 30: Day 2"
+title:  "JS30 D2: Talkin' time"
 date:   2016-12-13 6:55:49 -0600
 categories: javascript30 frontend
 ---

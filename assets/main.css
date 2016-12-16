@@ -13,6 +13,7 @@ dl, dd, ol, ul, figure {
 body {
   font: 400 16px/1.7 "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: #2d2a2a;
+  overflow-y:scroll;
   color: #ebeae8;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
