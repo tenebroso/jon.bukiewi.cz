@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "JS30 D5: Fun with Flexbox"
-date:   2016-12-15 8:47:01 -0600
+date:   2016-12-16 8:52:01 -0600
 categories: javascript30 frontend
 ---
 
