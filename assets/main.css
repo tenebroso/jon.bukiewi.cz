@@ -315,7 +315,7 @@ padding: 2em 3em;
 	transition:color .15s;
 }
 .post-content a:hover {
-	color:white;
+	color:black;
 }
 	.post-content h2 {
 		font-size: 32px; }
