@@ -15,13 +15,14 @@
 # in the templates via {{ site.myvariable }}.
 title: Jon Bukiewicz
 email: jon@bukiewi.cz
-description: > # this means to ignore newlines until "baseurl:"
-  This is a personal site and blog for Jon Bukiewicz, a web solutions engineer with a focus on front end development and coffee.
+description:  # this means to ignore newlines until "baseurl:"
+  Jon is a web solutions engineer with a focus on front end development and coffee.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jon.bukiewi.cz" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jonbukiewicz
 github_username:  tenebroso
 google_analytics: UA-88957316-1
+email: jon@bukiewi.cz
 
 # Build settings
 markdown: kramdown
