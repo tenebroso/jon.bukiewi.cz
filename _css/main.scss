@@ -2,6 +2,7 @@
 
 $serif: "chaparral-pro-display", serif;
 $sans-serif: "balboa-plus-inline", sans-serif;
+$sans-serif-heavy: "balboa-plus-fill", sans-serif;
 
 $body-bg: #c7c6c4;
 $light-text: #ebeae8;
@@ -16,9 +17,11 @@ body {
 	font: 400 16px/1.7 $serif;
 	background: $body-bg;
 	overflow-y:scroll;
+	overflow-x:hidden;
 	-webkit-text-size-adjust: 100%;
 	font-feature-settings: "kern" 1;
 	font-kerning: normal; 
+	width:100%;
 }
 
 ul, ol {
@@ -93,16 +96,17 @@ pre {
 	font-size: 17px;
 	font-weight: normal;
 	text-transform:uppercase;
-	font-family: $sans-serif;
+	font-family: $sans-serif-heavy;
 	line-height: 56px;
 	margin-bottom: 0;
 	float: left;
+	color:$dark-text;
 	@include transition(color);
 	.wf-active & {
 		font-size: 26px;
 	}
 	&:visited {
-		color:white;
+		color:$dark-text;
 	}
 	&:hover {
 		color:$highlight;
@@ -160,13 +164,13 @@ pre {
 }
 
 .post__meta {
-	color: $highlight;
-	font-size: 11px;
+	color: white;
+	font-size: 13px;
 	text-transform:uppercase;
 	display: block;
 	line-height: 1; 
 	margin-bottom:-5px;
-	font-family: $sans-serif;
+	font-family: $sans-serif-heavy;
 	margin:20px 0 -15px 23px;
 }
 
@@ -196,8 +200,8 @@ pre {
 }
 
 .post__wrapper {
-    background: black;
-    padding: 1.25em 1em 0;
+	background: black;
+	padding: 1.25em 1em 0;
 	@media (min-width:769px) {
 		padding-left:2em;
 		padding-right:2em;
@@ -210,10 +214,10 @@ pre {
 	line-height:1.8;
 	font-family: $serif;
 	padding: 2em 3em;
-    background: white;
-    color: $dark-text;
-    margin: 1em -3em;
-    text-align:justify;
+	background: white;
+	color: $dark-text;
+	margin: 1em -3em;
+	text-align:justify;
 }
 .post__content a {
 	color:$highlight;
@@ -300,23 +304,31 @@ pre {
 
 
 .socialMedia__list {
-	font-family:$sans-serif;
-	letter-spacing:-1px;
 	list-style: none;
-	margin-left: 0; 
+	margin: 0; 
 	padding: 0;
 }
 
+.socialMedia__item {
+	display: inline-block;
+	vertical-align: middle;
+}
+
 .socialMedia__item a {
-	@include transition(color);
 	display: block;
-	padding: 0 0 3px;
-	color:$light-text;
+	padding: 0 5px 3px;
+	color:$dark-text;
+	font-family:$sans-serif;
+	font-size: 0;
+	line-height: 0;
 	&:visited {
-		color:white;
+		color:black;
 	}
-	&:hover {
-		color:$highlight;
+	.icon svg path {
+		@include transition(fill);
+	}
+	&:hover .icon svg path {
+		fill:$dark-text;
 	}
 	.icon {
 		padding:0 5px 0 0;
@@ -325,6 +337,9 @@ pre {
 	}
 }
 
+.footer__cols-twoCol {
+	font-size: 14px;
+}
 
 
 @media (min-width:769px){
@@ -340,8 +355,7 @@ pre {
 
 	.footer__cols-twoCol {
 		width: calc(65% - (30px / 2)); 
-	    text-align: center;
-	    line-height: 1.2;
-	    padding-top: 7px;
+		line-height: 1.2;
+		text-align:right;
 	}
 }
