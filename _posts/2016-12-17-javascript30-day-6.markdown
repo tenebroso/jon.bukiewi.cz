@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "JS30 D7: Fetch API"
+title:  "JS30 D6: Fetch API"
 date:   2016-12-17 8:50:01 -0600
 categories: javascript30 frontend
 ---
