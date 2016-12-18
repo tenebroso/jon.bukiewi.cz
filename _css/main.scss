@@ -321,6 +321,9 @@ pre {
 	font-family:$sans-serif;
 	font-size: 0;
 	line-height: 0;
+	span:last-of-type {
+		display: none;
+	}
 	&:visited {
 		color:black;
 	}
