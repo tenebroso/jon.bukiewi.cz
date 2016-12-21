@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "JS30 D9: Dev Tools Domination"
+date:   2016-12-20 9:03:01 -0600
+categories: javascript30 frontend
+---
+
+Today's [JS30](https://javascript30.com/) lesson was pretty straightforward, in that Wes went over some really helpful console messaging tools like console.error, console.time, grouping, etc. I have already started to think of ways that I can incorporate some of this messaging into my own development workflow, while also keeping console.clear in the back of my mind for a rainy day - to slip in to a friend's code of course.
+
+I also have been working pretty dilligently on an AngularJS app during full-time gig hours, which is actually my first start-to-finish dive into architecting something like this at such a scale. I have had previous experience, but it has always been in working on something existing or following the learning path of places like CodeSchool. I am learning quite a bit as I go, much of it the hard way, as Angular and its components have evolved so much over the past few years. I am actually anxious to finish this and jump more deliberately into React for future projects, as I recognize that this is the direction that the industry is headed. For now, it's a bit too late to change course, but I've been working through Wes's React for Beginners course in the evenings and I really love how things like state are handled, and the ways in which it really forces you to follow their roadmap when building components and sharing data. It seems more of a solid path, versus investing more time in Angular 1 when so much of the information out there (I'm looking at you 2013) is out of date, and Angular 2 is on the horizon. 
+
+Anyway, just thinking out loud and planning for the future. It is still so amazing to me how quickly the Front End Developer role has shifted over the last several years. I used to get by knowing CSS3 and HTML5 really well, along with a sprinkling of jQuery, building out client sites using WordPress and focusing alot of my time on client services and responsive development. Now, unless you are architecting server and client side projects using React, Redux, Webpack, Gulp, Firebase, or building Canvas-based games in Codepen for fun, etc - I feel like you're kind of behind the curve. I am still wrestling with this reality, but have really become motivated to catch up as much as I can.
