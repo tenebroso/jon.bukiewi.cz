@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "JS30 D13/D14"
+date:   2016-12-27 11:59:01 -0600
+categories: javascript30 frontend
+---
+
+Wow, look at those holidays, just takin' up that time! I'll admit I got a bit sidetracked over the past few days, but with good things. Family, friends, [bizaare movies](http://www.imdb.com/title/tt3464902/), reading [Eloquent JavaScript](http://eloquentjavascript.net/) and Hello Worlding with [Firebase](https://friendlychat-7e68a.firebaseapp.com/). 
+
+That said, I've kept up with [JS30](https://javascript30.com/) to a point, but beginning today I am back on with full force. 
+
+I completed two days since I last shared - Day 13: Slide In on Scroll &amp; Day 14: Objects and Arrays - Reference VS Copy. Both of these were very interesting.
+
+For any UI development that required something to occur on scroll, I've always fiddled my way around a jQuery library like [Waypoints](http://imakewebthings.com/waypoints/). I liked again how this particular tutorial focused on native properties that browsers make available such as scroll and offset. There are some really creative things that can be done once you can grab values like these and attach UI to them. I also discovered [scrollIntoView](https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView) which I am going to keep my eye on, as it's a native method for scrolling to an element, although any smooth scrolling is unavailable except in Firefox for now. However, I think the more important piece of today's tutorial was the debounce (which I think of as throttle thanks to Lodash) function in order to prevent something like a scroll-based event listener from firing hundreds of times.
+
+In the Objects and Arrays tutorial, Wes walked through the "gotchas" that can occur when assigning an array or object to a variable, then changing a property on that new variable. The original object or array also has that property changed. He then walked through some better options, such as creating a new array and spreading the old one into it via ES6, using Object.assign and the "poor man's" deep clone method of JSON.parse(JSON.stringify(obj)), which I thought was pretty funny.
+
+Great stuff, cannot wait to continue moving forward!
