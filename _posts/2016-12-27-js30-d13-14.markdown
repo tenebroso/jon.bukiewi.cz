@@ -2,7 +2,6 @@
 layout: post
 title:  "JS30 D13/D14"
 date:   2016-12-27 11:59:01 -0600
-categories: javascript30 frontend
 ---
 
 Wow, look at those holidays, just takin' up that time! I'll admit I got a bit sidetracked over the past few days, but with good things. Family, friends, [bizaare movies](http://www.imdb.com/title/tt3464902/), reading [Eloquent JavaScript](http://eloquentjavascript.net/) and Hello Worlding with [Firebase](https://friendlychat-7e68a.firebaseapp.com/). 
