@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "JS30 D15: Storin' Some Tapas"
+date:   2017-01-09 06:48:01 -0600
+---
+
+Well, hello there! In my [introductory post](https://jon.bukiewi.cz/intro/2016/12/11/title-tbd.html) I mentioned that I liked 30 Day Challenges. You might by now have noted that I am not so much into "finishing them on time" as I am into "starting them", or if it has to do with anything diet-related, "not doing it at all after day 3". 
+
+Fortunately, this course is just too fun, and I like JavaScript too much to brush this off. As quickly as the days have passed, it's been on my mind with a tinge of guilt, so it was good to re-engage today and learn a bit more from Wes Bos' [JavaScript 30](https://javascript30.com) course.
+
+Today we focused on localStorage by creating a list which the user could add to, then refresh the page and have their options persist. This is in lieu of storing anything to a database, but it's still a fun trick. 
+
+Here is the pen:
+
+<p data-height="865" data-theme-id="0" data-slug-hash="BpomBz" data-default-tab="result" data-user="tenebroso" data-embed-version="2" data-pen-title="JavaScript 30: Day 15 - Wes Bos" class="codepen">See the Pen <a href="http://codepen.io/tenebroso/pen/BpomBz/">JavaScript 30: Day 15 - Wes Bos</a> by Jon Bukiewicz (<a href="http://codepen.io/tenebroso">@tenebroso</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
+Putting this into codepen also introduced the need to include Babel. It seems that by default this processor did not support the use of map for some reason, or perhaps it was the way I set up the function that was problematic. Either way, I have put it on my list to explore integrating Babel into my gulp workflows, since using ES6 is becoming way too much fun.
