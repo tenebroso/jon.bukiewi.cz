@@ -77,18 +77,20 @@ pre {
 }
 
 .wrapper {
+	display: flex;
 	max-width: 700px;
 	margin-right: auto;
 	margin-left: auto;
 	padding-right: 15px;
 	padding-left: 15px; 
-	ul:not(.socialMedia__list), ol {
+	ul:not(.socialMedia__list):not(.post__list), ol {
 		margin: 1rem 0;
 		padding: 0 0 0 1.5rem;
 	}
 	&.white-bg {
 		background: white;
 		color: black;
+		display: block;
 		font-size:19px;
 		line-height:1.8;
 		font-family: $serif;
@@ -147,6 +149,9 @@ pre {
 	text-transform: uppercase;
 	font-family: $sans-serif;
 	@include transition(color);
+	&:nth-child(2) {
+		display: none;
+	}
 	&:hover {
 		color:$highlight;
 	}
@@ -178,7 +183,7 @@ pre {
 
 .post__item {
 	background:black;
-	margin: 1em -1em;
+	margin: 1em 0;
 	transition:background-color .15s;
 	overflow:hidden;
 	&:hover {
@@ -367,10 +372,25 @@ pre {
 	}
 }
 
+[class^="cols"] {
+	width: 100%;
+}
+
+.footer__wrapper {
+	text-align:center;
+	align-content: center;
+	flex-wrap:wrap;
+}
+
 
 @media (min-width:769px){
 	.wrapper {
-		display: flex;
+		flex-wrap: no-wrap;
+		text-align: left;
+		&.white-bg {
+			display: flex;
+			margin-bottom: 2rem;
+		}
 	}
 
 	[class^="cols"] {
@@ -405,5 +425,9 @@ pre {
 			text-align:right;
 		}
 		
+	}
+
+	.post__item {
+		margin: 1em -1em;
 	}
 }
