@@ -37,6 +37,12 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 400; 
 }
 
+h2 {
+	margin: 0;
+	font-weight: bold;
+	line-height: 1.2;
+}
+
 a {
 	color: white;
 	text-decoration: none;
@@ -76,6 +82,23 @@ pre {
 	margin-left: auto;
 	padding-right: 15px;
 	padding-left: 15px; 
+	ul:not(.socialMedia__list), ol {
+		margin: 1rem 0;
+		padding: 0 0 0 1.5rem;
+	}
+	&.white-bg {
+		background: white;
+		color: black;
+		font-size:19px;
+		line-height:1.8;
+		font-family: $serif;
+		[class*="cols"]:last-of-type {
+			padding-top: 1rem;
+		}
+		a {
+			color:$highlight;
+		}
+	}
 }
 
 .icon > svg {
@@ -114,8 +137,8 @@ pre {
 }
 
 .nav__collection {
-	float: right;
-	line-height: 56px; 
+	line-height: 56px;
+	margin: 0 0 0 auto;
 }
 
 .nav__link {
@@ -300,6 +323,10 @@ pre {
 
 .footer__wrapper {
 	@extend .wrapper;
+	font-size: 14px;
+	p {
+		margin: 0;
+	}
 }
 
 
@@ -340,25 +367,43 @@ pre {
 	}
 }
 
-.footer__cols-twoCol {
-	font-size: 14px;
-}
-
 
 @media (min-width:769px){
-	[class^="footer__cols"] {
-		float: left;
-		margin-bottom: 15px;
+	.wrapper {
+		display: flex;
+	}
+
+	[class^="cols"] {
+		margin: 0 0 15px;
+	}
+
+	[class^="cols"]:not(:first-of-type) {
 		padding-left: 15px; 
 	}
 
-	.footer__cols-oneCol {
+	[class^="cols"]:last-of-type {
+		margin-left: auto;
+	}
+
+	.cols__fullWidth {
+		width: 100%;
+	}
+
+	.cols__oneHalf {
+		width: 50%;
+	}
+
+	.cols__oneThird {
 		width: calc(35% - (30px / 2));
 	}
 
-	.footer__cols-twoCol {
+	.cols__twoThirds {
 		width: calc(65% - (30px / 2)); 
-		line-height: 1.2;
-		text-align:right;
+
+		.footer__container & {
+			line-height: 1.2;
+			text-align:right;
+		}
+		
 	}
 }
